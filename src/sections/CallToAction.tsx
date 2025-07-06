@@ -24,10 +24,9 @@ export const CallToAction = () => {
     >
       <div className="container">
         <div className="section-heading relative">
-          <h2 className="section-title">Sign up for free today</h2>
+          <h2 className="section-title">Give us a try with a free trial</h2>
           <p className="section-description mt-5">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress and motivate your efforts.
+            Interested in giving our AI email assistant a try? Sign up for a free trial and see how it can help your business today!
           </p>
           <motion.img
             src={starImage.src}

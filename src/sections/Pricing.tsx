@@ -6,52 +6,45 @@ import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
-    title: "Free",
+    title: "Free Trial",
     monthlyPrice: 0,
-    buttonText: "Get started for free",
+    buttonText: "One month free trial",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      "Free trial for 1 month",
+      "1000 email responses",
+      "24/7 basic support",
     ],
   },
   {
     title: "Pro",
-    monthlyPrice: 9,
-    buttonText: "Sign up now",
+    monthlyPrice: 299,
+    buttonText: "Get Started",
     popular: true,
-    inverse: true,
+    inverse: false,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
-      "Export support",
+      "Custom AI tone & personality setup",
+      "Unlimited email responses",
+      "24/7 direct line support",
+      "Integrations (CRM, Calendar, etc.)",
+      "One-to-one onboarding",
     ],
   },
   {
     title: "Business",
-    monthlyPrice: 19,
-    buttonText: "Sign up now",
+    monthlyPrice: 1499,
+    buttonText: "Contact Us",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
+      "Custom AI tone & personality setup",
+      "Unlimited email responses",
+      "24/7 direct line support",
+      "Integrations (CRM, Calendar, etc.)",
+      "One-to-one onboarding",
       "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Includes AI Sales Agent Feature",
     ],
   },
 ];
@@ -63,8 +56,7 @@ export const Pricing = () => {
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
           <p className="section-description mt-5">
-            Free forever. Upgrade for unlimited tasks, better security, and
-            exclusive features.
+            Pay as you go. No contracts, no hidden fees. Cancel anytime. <b>Free trial for 1 month.</b> 
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 "use client"
-import productImage from "@/assets/product-image.png";
+import productImage from "@/assets/product-image-1.png";
 import Image from "next/image";
 import pyramidImage from '@/assets/pyramid.png';
 import tubeImage from '@/assets/tube.png';
@@ -24,11 +24,11 @@ export const ProductShowcase = () => {
             <div className="tag">Boost Your Productivity</div>
           </div>
           <h2 className="section-title mt-5">
-            A more effective way to track progress
+            Fully Automated and Hands Free
           </h2>
           <p className="section-description mt-5">
-            Effortlessly turn your ideas into a fully functional, responsive,
-            SaaS website in just minutes with this template.
+          Custom AI Assistant that is fully trained on information and details about your company. Schedule meetings, send follow ups, answer questions, solve customer problems and more. 
+
           </p>
         </div>
         <div className="relative">

@@ -14,55 +14,55 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "As a busy designer constantly juggling emails, this AI email agent has been a total game-changer. It handles my inbox with precision and speed.",
     imageSrc: avatar1.src,
     name: "Jamie Rivera",
     username: "@jamietechguru00",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "Our team's productivity has skyrocketed since we started using this AI to handle our emails. It's like having an assistant who never sleeps.",
     imageSrc: avatar2.src,
     name: "Josh Smith",
     username: "@jjsmith",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "This AI agent has completely transformed how I manage my inbox—no more email overload, just clean, smart replies and organization.",
     imageSrc: avatar3.src,
     name: "Morgan Lee",
     username: "@morganleewhiz",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "I was amazed at how quickly the AI integrated with my email and started providing accurate, thoughtful responses within hours.",
     imageSrc: avatar4.src,
     name: "Casey Jordan",
     username: "@caseyj",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "Managing client communications used to be overwhelming. Now with this AI email agent, I can focus on strategy instead of replying to every message.",
     imageSrc: avatar5.src,
     name: "Taylor Kim",
     username: "@taylorkimm",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "The customizability and integration capabilities of this AI email tool are top-notch. It fits seamlessly into our workflow.",
     imageSrc: avatar6.src,
     name: "Riley Smith",
     username: "@rileysmith1",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Adopting this AI email responder has not only saved us time but also improved the quality and consistency of our client communication.",
     imageSrc: avatar7.src,
     name: "Jordan Patels",
     username: "@jpatelsdesign",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "With this AI, we no longer stress over inbox zero. It auto-responds, flags important messages, and helps us stay on top of everything.",
     imageSrc: avatar8.src,
     name: "Sam Dawson",
     username: "@dawsontechtips",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "Its user-friendly interface and powerful AI responses make it an essential tool for anyone looking to tame their inbox.",
     imageSrc: avatar9.src,
     name: "Casey Harper",
     username: "@casey09",
@@ -144,8 +144,7 @@ export const Testimonials = () => {
           </div>
           <h2 className="section-title mt-5">What our users say</h2>
           <p className="section-description mt-5">
-            From intuitive design to powerful features, our app has become an
-            essential tool for users all around the world.
+            From faster email responses to increased productivity, our AI agents have become an essential tool for users all around the world.
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
