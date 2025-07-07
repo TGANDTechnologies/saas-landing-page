@@ -8,7 +8,7 @@ export default function ContactPage() {
       <div className="text-center section-heading">
         <h1 className="section-title">Contact Us</h1>
         <p className="section-description mt-4">
-          We're here to help with questions, support, or anything else you need.
+          We are here to help with questions, support, or anything else you need.
         </p>
       </div>
 
