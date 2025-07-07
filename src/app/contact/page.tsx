@@ -1,3 +1,4 @@
+import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 
 export default function ContactPage() {
@@ -27,6 +28,7 @@ export default function ContactPage() {
           <p>We typically respond within 24 hours.</p>
         </div>
       </div>
+      <Footer />
     </section>
     </>
   );
