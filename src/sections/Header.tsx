@@ -2,6 +2,14 @@ import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 export const Header = () => {
 
@@ -27,9 +35,23 @@ export const Header = () => {
               <a href="#">Customers</a>
               <a href="#">Updates</a>
               <a href="#">Help</a>
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                Get a Free Trial
-              </button>
+
+              <Dialog>
+                <DialogTrigger><button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
+                  Get a Free Trial
+                  </button></DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                        <DialogTitle>Request a free trial</DialogTitle>
+                        <DialogDescription>
+                          
+                          
+                        </DialogDescription>
+                    </DialogHeader>
+                  </DialogContent>
+              </Dialog>
+
+              
             </nav>
           </div>
         </div>
