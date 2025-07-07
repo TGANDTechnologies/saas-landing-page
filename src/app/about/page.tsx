@@ -31,7 +31,7 @@ export default function AboutPage() {
             <p className="text-muted-foreground">
               We believe email should not be a bottleneck. Our technology uses
               intelligent automation to simplify communication and increase your
-              team's efficiency across the board.
+              teams efficiency across the board.
             </p>
           </div>
 
