@@ -6,9 +6,9 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Light Saas Landing Page",
+  title: "AI Email Assistant",
   description:
-    "Modern and responsive SaaS landing page featuring smooth animations and clean design.",
+    "Boost your productivity with our AI-powered email assistant. Streamline your communication, automate responses, and manage your inbox effortlessly.",
 };
 
 export default function RootLayout({

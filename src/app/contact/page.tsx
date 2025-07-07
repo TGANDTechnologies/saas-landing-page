@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <>
     <Header />
-    <section className="max-w-3xl mx-auto py-16 px-4 ">
+    <section className=" top-0 max-w-3xl mx-auto py-16 px-4 mb-24">
       <div className="text-center section-heading">
         <h1 className="section-title">Contact Us</h1>
         <p className="section-description mt-4">
@@ -28,8 +28,8 @@ export default function ContactPage() {
           <p>We typically respond within 24 hours.</p>
         </div>
       </div>
-      <Footer />
     </section>
+    <Footer />
     </>
   );
 }
