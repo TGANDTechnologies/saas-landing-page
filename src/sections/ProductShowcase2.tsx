@@ -1,8 +1,6 @@
 "use client"
 import productImage from "@/assets/product-image-1.png";
 import Image from "next/image";
-import pyramidImage from '@/assets/pyramid.png';
-import tubeImage from '@/assets/tube.png';
 import {motion,useScroll,useTransform} from "framer-motion";
 import { useRef } from "react";
 

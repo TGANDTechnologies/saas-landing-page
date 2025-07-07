@@ -20,7 +20,7 @@ export default function AboutPage() {
           </div>
           <h1 className="section-title mt-5">Built to Save You Time</h1>
           <p className="section-description mt-5">
-            We're on a mission to eliminate the daily grind of email management.
+            We are on a mission to eliminate the daily grind of email management.
             Our AI-powered assistant is designed to help you focus on what matters most—growing your business.
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
             <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
             <p className="text-muted-foreground">
-              We believe email shouldn’t be a bottleneck. Our technology uses
+              We believe email should not be a bottleneck. Our technology uses
               intelligent automation to simplify communication and increase your
               team's efficiency across the board.
             </p>
