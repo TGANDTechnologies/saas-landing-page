@@ -25,7 +25,7 @@ export const ProductShowcase2 = () => {
             Fully Automated and Hands Free
           </h2>
           <p className="section-description mt-5">
-          Custom AI Assistant that is fully trained on information and details about your company. Schedule meetings, send follow ups, answer questions, solve customer problems and more. 
+          Schedule meetings, send follow ups, answer questions, solve customer problems and generate sales all without lifting a finger. 
 
           </p>
 

@@ -15,6 +15,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { motion, useScroll, useTransform } from "framer-motion";
+import DialogBox from "./DialogBox";
 
 export const Hero2 = () => {
   const heroRef = useRef(null);
@@ -34,8 +35,7 @@ export const Hero2 = () => {
           
 
           {/* Left graphics */}
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative scale-x-[-1]
-">
+          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative ">
             <motion.img
               src={cogImage.src}
               alt="Cog"
@@ -44,7 +44,7 @@ export const Hero2 = () => {
               transition={{ repeat: Infinity, repeatType: "mirror", duration: 3, ease: "easeInOut" }}
             />
             <motion.img
-              src={noodleImage.src}
+              src={cylinderImage.src}
               width={220}
               height={220}
               alt="Cylinder"
@@ -52,10 +52,10 @@ export const Hero2 = () => {
               style={{ translateY }}
             />
             <motion.img
-              src={cylinderImage.src}
+              src={noodleImage.src}
               width={180}
               alt="Noodle"
-              className="hidden lg:block absolute -top-8 -right-32 rotate-[30deg]"
+              className="hidden lg:block absolute -top-8 -right-32 rotate-[30deg] "
               style={{ translateY }}
             />
           </div>
@@ -67,51 +67,22 @@ export const Hero2 = () => {
   <div className="tag inline-block">Version 2.0 is here</div>
 
   <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-    Fully Automated Email Assistant
+    Your Personal AI Workforce
   </h1>
 
   <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-    Say hello to a hands-free AI email assistant trained on your company’s information — available 24/7.
+Our team personally fine-tunes each AI agent to your product or service, turning it into a fully integrated member of your team. Your dedicated assistant works 24/7 to handle marketing, sales, and support—so you can focus on growing your business.
   </p>
 
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">
-    <Dialog>
-      <DialogTrigger asChild>
-        <button className="btn btn-primary">Get a Free Trial</button>
-      </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Request a Free Trial</DialogTitle>
-          <DialogDescription>
-            Fill in your details and we’ll get in touch shortly.
-          </DialogDescription>
-        </DialogHeader>
-        <form className="space-y-4 mt-4 text-left"> {/* form remains left-aligned */}
-          <div className="flex flex-col space-y-1">
-            <label htmlFor="name" className="text-sm font-medium">Full Name</label>
-            <input id="name" type="text" placeholder="John Doe" className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-black" />
-          </div>
-          <div className="flex flex-col space-y-1">
-            <label htmlFor="business" className="text-sm font-medium">Business Name</label>
-            <input id="business" type="text" placeholder="Acme Inc." className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-black" />
-          </div>
-          <div className="flex flex-col space-y-1">
-            <label htmlFor="email" className="text-sm font-medium">Email</label>
-            <input id="email" type="email" placeholder="john@acme.com" className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-black" />
-          </div>
-          <div className="flex flex-col space-y-1">
-            <label htmlFor="contact" className="text-sm font-medium">Contact Number</label>
-            <input id="contact" type="tel" placeholder="+1 555 123 4567" className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-black" />
-          </div>
-          <button type="submit" className="w-full bg-black text-white py-2 px-4 rounded-md hover:bg-gray-900 transition-colors">
-            Submit
-          </button>
-        </form>
-      </DialogContent>
-    </Dialog>
+    <DialogBox
+  trigger={
+     <button className="btn btn-primary">Get a Free Trial</button>
+  }
+/>
 
     <button className="btn btn-text gap-1">
-      <span>Learn more</span>
+      <a href="/features">Learn more</a>
       <ArrowIcon className="h-5 w-5" />
     </button>
   </div>

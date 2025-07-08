@@ -142,7 +142,7 @@ export const Testimonials = () => {
           <div className="flex justify-center">
             <div className="tag">Testimonials</div>
           </div>
-          <h2 className="section-title mt-5">What our users say</h2>
+          <h2 className="section-title mt-5">What our customers say</h2>
           <p className="section-description mt-5">
             From faster email responses to increased productivity, our AI agents have become an essential tool for users all around the world.
           </p>

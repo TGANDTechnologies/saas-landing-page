@@ -16,12 +16,12 @@ export const Footer = () => {
         </div>
       </div>
       <nav className="flex flex-col gap-6 mt-6 md:flex-row md:justify-center">
-        <a href="#">About</a>
-        <a href="#">Features</a>
-        <a href="#">Customers</a>
-        <a href="#">Pricing</a>
-        <a href="#">Help</a>
-        <a href="#">Careers</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/features">Features</a>
+        <a href="/blog">Updates</a>
+        <a href="/contact">Contact</a>
+        <a href="/policy">Privacy Policy and Terms</a>
       </nav>
       <div className="flex justify-center gap-6 mt-6"><SocialX />
       <SocialInsta />
