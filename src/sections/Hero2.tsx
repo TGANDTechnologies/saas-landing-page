@@ -6,14 +6,6 @@ import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cylinder.png";
 import cylinderImage from "@/assets/cog.png";
 import noodleImage from "@/assets/noodle.png";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 import { motion, useScroll, useTransform } from "framer-motion";
 import DialogBox from "./DialogBox";
 

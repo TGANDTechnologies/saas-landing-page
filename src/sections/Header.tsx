@@ -33,9 +33,9 @@ export const Header = () => {
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
               <a href="/">Home</a>
-              <a href="/about">About</a>
               <a href="/features">Features</a>
-              <a href="/blog">Updates</a>
+              <a href="/blog">Blog</a>
+              <a href="/about">About</a>
               <a href="/contact">Contact</a>
 
            <DialogBox
