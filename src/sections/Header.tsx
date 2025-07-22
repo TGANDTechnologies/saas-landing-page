@@ -15,11 +15,14 @@ export const Header = () => {
         <div className="inline-flex gap-1 items-center">
           
           
-    <DialogBox
-  trigger={
-    <a href="#">Get started for free</a>
-  }
-/>
+    <a
+      href="https://www.dashboard.solamailer.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+    >
+      Get started for free
+    </a>
   
           
           
@@ -40,9 +43,14 @@ export const Header = () => {
 
            <DialogBox
   trigger={
-    <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
+    <a
+      href="https://www.dashboard.solamailer.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+    >
       Log In
-    </button>
+    </a>
   }
 />
 

@@ -69,7 +69,14 @@ export const Hero2 = () => {
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">
     <DialogBox
   trigger={
-     <button className="btn btn-primary">Get a Free Trial</button>
+     <a
+      href="https://www.dashboard.solamailer.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+    >
+      Get started for free
+    </a>
   }
 />
 

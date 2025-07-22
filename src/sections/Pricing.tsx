@@ -116,14 +116,14 @@ export const Pricing = () => {
                 
             <DialogBox
   trigger={
-     <button
-                  className={twMerge(
-                    "btn btn-primary w-full mt-[30px]",
-                    inverse === true && "bg-white text-black"
-                  )}
-                >
-                  {buttonText}
-                </button>
+     <a
+      href="https://www.dashboard.solamailer.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-black text-white mt-[30px] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+    >
+      {buttonText}
+    </a>
   }
 />
     

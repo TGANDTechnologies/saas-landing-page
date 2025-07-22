@@ -28,7 +28,7 @@ export const Footer = () => {
       <SocialLinkedin />
       <SocialPin />
       <SocialYoutube /></div>
-      <p className="mt-6">&copy; 2025 TGAND Technologies, LLC. All rights reserved.</p>
+      <p className="mt-6">&copy; 2025 Sola Mailer, LLC. All rights reserved.</p>
     </footer>
   );
 };
