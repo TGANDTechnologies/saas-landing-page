@@ -26,7 +26,7 @@ export const Setup = () => {
           <div className="flex justify-center">
             <div className="tag">Boost Your Productivity</div>
           </div>
-          <h2 className="section-title mt-5">Roadmap to Automation</h2>
+          <h2 className="section-title mt-5">15 Minute Setup</h2>
           <p className="section-description mt-5">
             Here’s how your AI Assistant transforms your workflow in just 3 steps.
           </p>
@@ -36,25 +36,25 @@ export const Setup = () => {
         <div className="mt-16 grid gap-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 1</div>
-            <h3 className="text-xl font-semibold mb-2">Train Your AI</h3>
+            <h3 className="text-xl font-semibold mb-2">Train</h3>
             <p className="text-muted-foreground">
-              Upload your company documents and FAQs — our system learns and adapts instantly.
+              Answer questions about your products, service and business — our system learns and adapts instantly.
             </p>
           </div>
 
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 2</div>
-            <h3 className="text-xl font-semibold mb-2">Automate Replies</h3>
+            <h3 className="text-xl font-semibold mb-2">Contacts</h3>
             <p className="text-muted-foreground">
-              Let the AI respond to emails, schedule meetings, and handle inquiries automatically.
+              Upload your contacts and add any relevant context — your AI will use this to personalize interactions and responses.
             </p>
           </div>
 
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 3</div>
-            <h3 className="text-xl font-semibold mb-2">Monitor & Improve</h3>
+            <h3 className="text-xl font-semibold mb-2">Campaigns</h3>
             <p className="text-muted-foreground">
-              Get insights, fine-tune performance, and adjust preferences — all from your dashboard.
+              Select an outcome and manage campaigns effortlessly — your AI will optimize every aspect for maximum impact.
             </p>
           </div>
         </div>

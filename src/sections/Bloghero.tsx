@@ -14,7 +14,7 @@ export default function BlogHero() {
           Discover Insights, Tips & Updates
         </h1>
         <p className="mt-4 text-lg text-gray-200">
-          Explore how AI is changing the way we handle communication and productivity—one email at a time.
+          Useful articles to enhance your productivity, plus tips & tricks on the latest trends in AI and automation.
         </p>
       </div>
     </section>

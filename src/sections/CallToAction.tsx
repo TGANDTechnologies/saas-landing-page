@@ -27,7 +27,7 @@ export const CallToAction = () => {
         <div className="section-heading relative">
           <h2 className="section-title">Give us a try with a free trial</h2>
           <p className="section-description mt-5">
-            Interested in giving our AI email assistant a try? Sign up for a free trial and see how it can help your business today!
+            Interested in giving our platform a try? Sign up for a free trial and see how it can help your business today!
           </p>
           <motion.img
             src={starImage.src}

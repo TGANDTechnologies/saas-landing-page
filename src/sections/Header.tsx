@@ -41,7 +41,7 @@ export const Header = () => {
            <DialogBox
   trigger={
     <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
-      Get a Free Trial
+      Log In
     </button>
   }
 />

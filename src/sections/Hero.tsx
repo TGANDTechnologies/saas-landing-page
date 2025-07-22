@@ -30,10 +30,12 @@ export const Hero = () => {
           <div className="md:w-[478px]">
             <div className="tag">Version 2.0 is here</div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-              Fully Automated Email Assistant
+              AI Driven Email Marketing
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Say hello to a fully hands free AI email assistant that is trained on your companys information and can handle your email 24/7. 
+              Drop in your email list and let our AI-powered platform handle the rest. From
+              crafting personalized messages to optimizing send times, email marketing
+              has never been more effortless and effective.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
 

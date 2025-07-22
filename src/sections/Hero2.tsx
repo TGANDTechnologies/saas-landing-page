@@ -59,11 +59,11 @@ export const Hero2 = () => {
   <div className="tag inline-block">Version 2.0 is here</div>
 
   <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-    Your Personal AI Workforce
+    No More Drafting Marketing Emails
   </h1>
 
   <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-Our team personally fine-tunes each AI agent to your product or service, turning it into a fully integrated member of your team. Your dedicated assistant works 24/7 to handle marketing, sales, and support—so you can focus on growing your business.
+    Our platform automates the entire email marketing process, from crafting personalized messages to optimizing send times. Experience effortless and effective email marketing like never before.
   </p>
 
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">

@@ -22,11 +22,10 @@ export const ProductShowcase2 = () => {
             <div className="tag">Boost Your Productivity</div>
           </div>
           <h2 className="section-title mt-5">
-            Fully Automated and Hands Free
+            Customize Your AI Manager
           </h2>
           <p className="section-description mt-5">
-          Schedule meetings, send follow ups, answer questions, solve customer problems and generate sales all without lifting a finger. 
-
+          Feed your AI with your unique style and preferences. It learns from your emails, documents, and interactions to become the perfect assistant. 
           </p>
 
         </div>
@@ -42,16 +41,16 @@ export const ProductShowcase2 = () => {
       
 <div className="mt-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
   <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
-    <h2 className="text-lg font-semibold mb-2">Smart Email Responses</h2>
+    <h2 className="text-lg font-semibold mb-2">Uniquely Defined Segmenets</h2>
     <p className="text-muted-foreground">
-      Let AI reply to routine emails with natural, human-like language—saving hours every day.
+      Create segments based on audience behavior, demographics, and interests and allow your AI to tailor its responses and actions accordingly.
     </p>
   </div>
 
   <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
-    <h2 className="text-lg font-semibold mb-2">Seamless Integration</h2>
+    <h2 className="text-lg font-semibold mb-2">Targeted Campaigns</h2>
     <p className="text-muted-foreground">
-      Works with Gmail, Outlook, and your CRM. No setup headaches. Just plug and go.
+      Launch campaigns that resonate with each segment, ensuring your AI delivers the right message to the right audience at the right time.
     </p>
   </div>
 </div>
