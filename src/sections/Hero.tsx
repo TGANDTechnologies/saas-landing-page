@@ -10,7 +10,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { useRef } from "react";
-import DialogBox from "./DialogBox";
 
 export const Hero = () => {
   const heroRef = useRef(null);
@@ -39,9 +38,7 @@ export const Hero = () => {
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
 
-                <DialogBox
-  trigger={
-     <a
+                <a
       href="https://app.solamailer.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -49,8 +46,6 @@ export const Hero = () => {
     >
       Get started for free
     </a>
-  }
-/>
    
   
 

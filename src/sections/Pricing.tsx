@@ -11,7 +11,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import DialogBox from "./DialogBox";
 
 const pricingTiers = [
   {
@@ -114,9 +113,7 @@ export const Pricing = () => {
                   </span>
                 </div>
                 
-            <DialogBox
-  trigger={
-     <a
+            <a
       href="https://app.solamailer.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -124,9 +121,6 @@ export const Pricing = () => {
     >
       {buttonText}
     </a>
-  }
-/>
-    
   
 
                 <ul className="flex flex-col gap-5 mt-8">

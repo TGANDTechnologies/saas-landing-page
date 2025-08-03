@@ -7,7 +7,6 @@ import cogImage from "@/assets/cylinder.png";
 import cylinderImage from "@/assets/cog.png";
 import noodleImage from "@/assets/noodle.png";
 import { motion, useScroll, useTransform } from "framer-motion";
-import DialogBox from "./DialogBox";
 
 export const Hero2 = () => {
   const heroRef = useRef(null);
@@ -67,9 +66,7 @@ export const Hero2 = () => {
   </p>
 
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">
-    <DialogBox
-  trigger={
-     <a
+    <a
       href="https://app.solamailer.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -77,8 +74,7 @@ export const Hero2 = () => {
     >
       Get started for free
     </a>
-  }
-/>
+ 
 
     <button className="btn btn-text gap-1">
       <a href="/features">Learn more</a>

@@ -10,7 +10,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { useRef } from "react";
-import DialogBox from "./DialogBox";
 
 export const Hero3 = () => {
   const heroRef = useRef(null);

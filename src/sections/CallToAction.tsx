@@ -5,7 +5,6 @@ import starImage from "@/assets/star.png";
 import springImage from "@/assets/spring.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import DialogBox from "./DialogBox";
 
 
 export const CallToAction = () => {
@@ -50,9 +49,7 @@ export const CallToAction = () => {
         </div>
         <div className="flex gap-2 mt-10 justify-center">
           
-          <DialogBox
-  trigger={
-       <a
+         <a
       href="https://app.solamailer.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -60,9 +57,6 @@ export const CallToAction = () => {
     >
       Get started for free
     </a>
-  }
-/>
- 
   
           
 
