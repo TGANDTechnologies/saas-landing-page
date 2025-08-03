@@ -57,7 +57,7 @@ export const Header = () => {
           </div>
           {/* Mobile Menu */}
           {mobileMenuOpen && (
-            <nav className="md:hidden mt-4 py-4 border-t border-gray-200">
+            <nav className="md:hidden mt-4 py-4 border-t border-gray-200 bg-white/80 backdrop-blur-md rounded-lg">
               <div className="flex flex-col gap-4 text-black/60">
                 <a href="/" onClick={() => setMobileMenuOpen(false)}>
                   Home
