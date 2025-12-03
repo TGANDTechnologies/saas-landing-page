@@ -144,7 +144,7 @@ export const Testimonials = () => {
           </div>
           <h2 className="section-title mt-5">What our customers say</h2>
           <p className="section-description mt-5">
-            From increased customer engagement to improved productivity, our platfomr has become an essential tool for users all around the world.
+            From increased customer engagement to improved productivity, our platform has become an essential tool for users around the world.
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">

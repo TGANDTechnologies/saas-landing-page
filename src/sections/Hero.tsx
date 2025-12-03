@@ -29,12 +29,10 @@ export const Hero = () => {
           <div className="md:w-[478px]">
             <div className="tag">Version 2.0 is here</div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-              AI Driven Email Marketing
+              Context Driven AI Employee
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Drop in your email list and let our AI-powered platform handle the rest. From
-              crafting personalized messages to optimizing send times, email marketing
-              has never been more effortless and effective.
+              Program your own context‑driven AI employee to handle entry‑level marketing and sales — from crafting personalized outreach and qualifying leads to scheduling follow‑ups and optimizing send times. Deploy a reliable assistant that learns your context, integrates with your stack, and scales outreach with human‑like judgment.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
 

@@ -62,7 +62,7 @@ export const Hero2 = () => {
   </h1>
 
   <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-    Our platform automates the entire email marketing process, from crafting personalized messages to optimizing send times. Experience effortless and effective email marketing like never before.
+    Ramp up with AI before hiring new team members, or augment your existing workforce with an autonomous employee that handles marketing and sales tasks 24/7.
   </p>
 
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">

@@ -36,25 +36,25 @@ export const Setup = () => {
         <div className="mt-16 grid gap-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 1</div>
-            <h3 className="text-xl font-semibold mb-2">Train</h3>
+            <h3 className="text-xl font-semibold mb-2">Training</h3>
             <p className="text-muted-foreground">
-              Answer questions about your products, service and business — our system learns and adapts instantly.
+              Create a profile and enter information about your company, products, and services — your AI will use this to understand your business and brand voice.
             </p>
           </div>
 
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 2</div>
-            <h3 className="text-xl font-semibold mb-2">Contacts</h3>
+            <h3 className="text-xl font-semibold mb-2">Contacts & Context</h3>
             <p className="text-muted-foreground">
-              Upload your contacts and add any relevant context — your AI will use this to personalize interactions and responses.
+              You add your contacts manually, or integrate with your CRM to import them directly. Your AI will use this context to personalize outreach and interactions.
             </p>
           </div>
 
           <div className="card w-full text-center">
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 3</div>
-            <h3 className="text-xl font-semibold mb-2">Campaigns</h3>
+            <h3 className="text-xl font-semibold mb-2">Campaigns & Automations</h3>
             <p className="text-muted-foreground">
-              Select an outcome and manage campaigns effortlessly — your AI will optimize every aspect for maximum impact.
+              You can create campaigns with triggers and automations and your AI will take it from there — handling outreach, follow-ups, and optimizations on your behalf.
             </p>
           </div>
         </div>

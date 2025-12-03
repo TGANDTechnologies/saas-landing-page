@@ -25,7 +25,7 @@ export const ProductShowcase2 = () => {
             Customize Your AI Manager
           </h2>
           <p className="section-description mt-5">
-          Feed your AI with your unique style and preferences. It learns from your emails, documents, and interactions to become the perfect assistant. 
+          Ready to craft multi‑channel campaigns, qualify and nurture leads, run A/B tests, optimize messaging and send times, and deliver performance reports with configurable guardrails and simple human oversight.
           </p>
 
         </div>
@@ -41,16 +41,16 @@ export const ProductShowcase2 = () => {
       
 <div className="mt-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
   <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
-    <h2 className="text-lg font-semibold mb-2">Uniquely Defined Segmenets</h2>
+    <h2 className="text-lg font-semibold mb-2">Built to run on Context</h2>
     <p className="text-muted-foreground">
-      Create segments based on audience behavior, demographics, and interests and allow your AI to tailor its responses and actions accordingly.
+      Built on your business content — product docs, FAQs, support transcripts, and brand guidelines — the system uses your own context to generate accurate, on‑brand responses.
     </p>
   </div>
 
   <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
     <h2 className="text-lg font-semibold mb-2">Targeted Campaigns</h2>
-    <p className="text-muted-foreground">
-      Launch campaigns that resonate with each segment, ensuring your AI delivers the right message to the right audience at the right time.
+    <p className="text-muted-foreground mt-3">
+      Take control to craft targeted outreach, or let the system run autonomously and optimize for you.
     </p>
   </div>
 </div>

@@ -14,54 +14,52 @@ import {
 
 const pricingTiers = [
   {
-    title: "Starter",
-    monthlyPrice: 99,
-    buttonText: "Sign Up",
+    title: "Startup",
+    monthlyPrice: 1199,
+    buttonText: "Get Started",
     popular: false,
     inverse: false,
     features: [
-      "5,000 Email sends per month.",
+      "Unlimited Email sends per month.",
       "24/7 basic support.",
-      "Email analytics.",
-      "Custom domain support.",
-      "AI Email segmentation.",
-      "AI Email campaigns.",
+      "Customized AI Agent Employee.",
+      "Sales and Marketing Modules.",
       "Email scheduling.",
     ],
   },
   {
     title: "Growth",
-    monthlyPrice: 249,
+    monthlyPrice: 2249,
     buttonText: "Get Started",
     popular: true,
     inverse: false,
     features: [
-      "15,000 Email sends per month.",
-      "24/7 email support.",
-      "Campaign setup support and management.",
-      "Access to all features.",
-      "AI Email templates.",
-      "Custom domain support.",
-      "Advanced email analytics.",
-      "AI Email segmentation.",
+     "Unlimited Email sends per month.",
+      "24/7 basic support.",
+      "Customized AI Agent Employee.",
+      "Sales and Marketing Modules.",
+      "Email scheduling.",
+      "CRM Integration",
+      "(2) AI Agent Employees.",
     ],
   },
   {
     title: "Scale",
-    monthlyPrice: 449,
+    monthlyPrice: 4650,
     buttonText: "Contact Us",
     popular: false,
     inverse: false,
     features: [
-      "30,000 Email sends per month.",
-      "24/7 email support.",
-      "Campaign setup support and management.",
-      "9am - 5pm PST Priority phone support.",
-      "Access to all features.",
-      "AI Email templates.",
-      "Custom domain support.",
-      "Advanced email analytics.",
-      "AI Email sequences automation.",
+      "Unlimited Email sends per month.",
+      "24/7 basic support.",
+      "Customized AI Agent Employee.",
+      "Sales and Marketing Modules.",
+      "Email scheduling.",
+      "CRM Integration",
+      "Unlimited AI Agent Employees.",
+      "Direct support line with AI specialist.",
+      "Dedicated account manager.",
+      "Custom AI solutions.",
     ],
   },
 ];
@@ -73,7 +71,7 @@ export const Pricing = () => {
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
           <p className="section-description mt-5">
-            Pay as you go. No contracts, no hidden fees. Cancel anytime. <b>Free trial for 1 month.</b> 
+            Tiered pricing. No contracts, no hidden fees. Cancel anytime. <b>Free trial for 1 month.</b>
           </p>
         </div>
 
