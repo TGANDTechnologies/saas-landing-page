@@ -24,9 +24,9 @@ export const CallToAction = () => {
     >
       <div className="container">
         <div className="section-heading relative">
-          <h2 className="section-title">Give us a try with a free trial</h2>
+          <h2 className="section-title">Sign up to receive more information</h2>
           <p className="section-description mt-5">
-            Interested in giving our platform a try? Sign up for a free trial and see how it can help your business today!
+            Want to learn more about Solamailer and your account? Fill out the form below to receive information and updates from us.
           </p>
           <motion.img
             src={starImage.src}
@@ -47,25 +47,69 @@ export const CallToAction = () => {
             }}
           />
         </div>
-        <div className="flex gap-2 mt-10 justify-center">
-          
-         <a
-      href="https://app.solamailer.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
-    >
-      Get started for free
-    </a>
-  
-          
-
-
-          <button className="btn btn-text">
-            <a href="/features">Learn more</a>
-            <ArrowRight className="h-5 w-5" />
+        <form className="max-w-xl mx-auto bg-white rounded-xl shadow-md p-8 mt-10 flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
+            <label htmlFor="name" className="font-medium">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            />
+          </div>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="email" className="font-medium">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            />
+          </div>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="phone" className="font-medium">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            />
+          </div>
+          <div className="flex flex-col gap-2">
+            <label htmlFor="mobile" className="font-medium">Mobile Phone</label>
+            <input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              required
+              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            />
+          </div>
+          <div className="flex items-start gap-2">
+            <input
+              type="checkbox"
+              id="smsConsent"
+              name="smsConsent"
+              required
+              className="mt-1"
+            />
+            <label htmlFor="smsConsent" className="text-sm">
+              Please text me about my account and about marketing related to Solamailer
+            </label>
+          </div>
+          <button
+            type="submit"
+            className="bg-black text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-gray-900 transition"
+          >
+            Sign Up
           </button>
-        </div>
+          <p className="text-xs text-gray-500 mt-2 text-center">
+            By submitting this form, you are opting-in to receive information and messages, including marketing, from Solamailer. We will not sell your data or share it with any third parties or partners.
+          </p>
+        </form>
       </div>
     </section>
   );
