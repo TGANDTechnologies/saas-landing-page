@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import ArrowRight from "@/assets/arrow-right.svg";
 import starImage from "@/assets/star.png";
 import springImage from "@/assets/spring.png";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -47,69 +46,19 @@ export const CallToAction = () => {
             }}
           />
         </div>
-        <form className="max-w-xl mx-auto bg-white rounded-xl shadow-md p-8 mt-10 flex flex-col gap-6">
-          <div className="flex flex-col gap-2">
-            <label htmlFor="name" className="font-medium">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        <div className="max-w-xl mx-auto bg-white rounded-xl shadow-md p-8 mt-10">
+          <div style={{ position: 'relative', width: '100%', maxWidth: '500px', margin: '0 auto' }}>
+            <iframe 
+              src="https://app.solamailer.com/embed/4fbe935d57d4c01846c959eaa22da3633d892bc134b1ebe0408ea9203387bba6"
+              width="100%"
+              height="400"
+              frameBorder="0"
+              style={{ border: 'none' }}
+              title="TGAND Website Form"
+              loading="lazy"
             />
           </div>
-          <div className="flex flex-col gap-2">
-            <label htmlFor="email" className="font-medium">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
-            />
-          </div>
-          <div className="flex flex-col gap-2">
-            <label htmlFor="phone" className="font-medium">Phone</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              required
-              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
-            />
-          </div>
-          <div className="flex flex-col gap-2">
-            <label htmlFor="mobile" className="font-medium">Mobile Phone</label>
-            <input
-              type="tel"
-              id="mobile"
-              name="mobile"
-              required
-              className="border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
-            />
-          </div>
-          <div className="flex items-start gap-2">
-            <input
-              type="checkbox"
-              id="smsConsent"
-              name="smsConsent"
-              required
-              className="mt-1"
-            />
-            <label htmlFor="smsConsent" className="text-sm">
-              Please text me about my account and about marketing related to Solamailer
-            </label>
-          </div>
-          <button
-            type="submit"
-            className="bg-black text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-gray-900 transition"
-          >
-            Sign Up
-          </button>
-          <p className="text-xs text-gray-500 mt-2 text-center">
-            By submitting this form, you are opting-in to receive information and messages, including marketing, from Solamailer. We will not sell your data or share it with any third parties or partners.
-          </p>
-        </form>
+        </div>
       </div>
     </section>
   );
