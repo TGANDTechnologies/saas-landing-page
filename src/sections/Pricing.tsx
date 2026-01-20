@@ -20,7 +20,7 @@ const pricingTiers = [
     popular: false,
     inverse: false,
     features: [
-      "Unlimited Email sends per month.",
+      "25,000 Email sends per month.",
       "24/7 basic support.",
       "Customized AI Agent Employee.",
       "Sales and Marketing Modules.",
@@ -34,7 +34,7 @@ const pricingTiers = [
     popular: true,
     inverse: false,
     features: [
-     "Unlimited Email sends per month.",
+     "50,000 Email sends per month.",
       "24/7 basic support.",
       "Customized AI Agent Employee.",
       "Sales and Marketing Modules.",
