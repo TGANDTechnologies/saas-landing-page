@@ -15,7 +15,7 @@ import {
 const pricingTiers = [
   {
     title: "Startup",
-    monthlyPrice: 1199,
+    monthlyPrice: 999,
     buttonText: "Get Started",
     popular: false,
     inverse: false,
@@ -29,7 +29,7 @@ const pricingTiers = [
   },
   {
     title: "Growth",
-    monthlyPrice: 2249,
+    monthlyPrice: 1449,
     buttonText: "Get Started",
     popular: true,
     inverse: false,
@@ -45,7 +45,7 @@ const pricingTiers = [
   },
   {
     title: "Scale",
-    monthlyPrice: 4650,
+    monthlyPrice: 1950,
     buttonText: "Contact Us",
     popular: false,
     inverse: false,
