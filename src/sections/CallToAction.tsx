@@ -49,7 +49,7 @@ export const CallToAction = () => {
         <div className="max-w-xl mx-auto bg-white rounded-xl shadow-md p-8 mt-10">
           <div style={{ position: 'relative', width: '100%', maxWidth: '500px', margin: '0 auto' }}>
             <iframe 
-              src="https://app.solamailer.com/embed/4fbe935d57d4c01846c959eaa22da3633d892bc134b1ebe0408ea9203387bba6"
+              src="https://app.solamailer.com/embed/9bfed2276d935039099f895d7ae304c0fe83301e369b1f96f4e13544f44f6b79"
               width="100%"
               height="400"
               frameBorder="0"
