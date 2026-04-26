@@ -56,7 +56,7 @@ const pricingTiers = [
   },
   {
     title: "Growth",
-    monthlyPrice: 799,
+    monthlyPrice: 899,
     buttonText: "Get Started",
     popular: true,
     inverse: false,
@@ -80,7 +80,7 @@ const pricingTiers = [
   },
   {
     title: "Scale",
-    monthlyPrice: 2199,
+    monthlyPrice: 1999,
     buttonText: "Contact Us",
     popular: false,
     inverse: true,
