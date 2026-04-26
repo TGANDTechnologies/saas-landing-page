@@ -27,7 +27,7 @@ export const ProductShowcase = () => {
             Fully Automated and Hands Free
           </h2>
           <p className="section-description mt-5">
-          Enter information about your company, or integrate to your CRM and let  your Agent employee handle the rest.
+          Enter information about your company, or integrate to your CRM to train your employee on real company knowledge.
 
           </p>
         </div>
