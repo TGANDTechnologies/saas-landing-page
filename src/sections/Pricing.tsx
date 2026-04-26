@@ -51,7 +51,6 @@ const pricingTiers = [
       "HubSpot read-only sync",
       "1 seat",
       "Email support (48h)",
-      "$249/mo billed annually",
     ],
   },
   {
@@ -75,7 +74,6 @@ const pricingTiers = [
       "1,000 SMS",
       "3 seats",
       "Priority support (8h)",
-      "$415/mo billed annually",
     ],
   },
   {
@@ -103,7 +101,6 @@ const pricingTiers = [
       "10 seats (RBAC)",
       "Slack + onboarding",
       "99.9% SLA",
-      "$749/mo billed annually",
     ],
   },
 ];
