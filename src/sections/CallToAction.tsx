@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import ArrowRight from "@/assets/arrow-right.svg";
 import starImage from "@/assets/star.png";
 import springImage from "@/assets/spring.png";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -24,9 +23,9 @@ export const CallToAction = () => {
     >
       <div className="container">
         <div className="section-heading relative">
-          <h2 className="section-title">Give us a try with a free trial</h2>
+          <h2 className="section-title">Sign up to receive more information</h2>
           <p className="section-description mt-5">
-            Interested in giving our platform a try? Sign up for a free trial and see how it can help your business today!
+            Want to learn more about Solamailer and your account? Fill out the form below to receive information and updates from us.
           </p>
           <motion.img
             src={starImage.src}
@@ -47,24 +46,18 @@ export const CallToAction = () => {
             }}
           />
         </div>
-        <div className="flex gap-2 mt-10 justify-center">
-          
-         <a
-      href="https://app.solamailer.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
-    >
-      Get started for free
-    </a>
-  
-          
-
-
-          <button className="btn btn-text">
-            <a href="/features">Learn more</a>
-            <ArrowRight className="h-5 w-5" />
-          </button>
+        <div className="max-w-xl mx-auto bg-white rounded-xl shadow-md p-8 mt-10">
+          <div style={{ position: 'relative', width: '100%', height: '100%', maxWidth: '500px', margin: '0 auto' }}>
+            <iframe 
+              src="https://app.solamailer.com/embed/9bfed2276d935039099f895d7ae304c0fe83301e369b1f96f4e13544f44f6b79"
+              width="100%"
+              height="650"
+              frameBorder="0"
+              style={{ border: 'none' }}
+              title="TGAND Website Form"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </section>
