@@ -38,7 +38,7 @@ We use the information we collect for the following purposes:
 <p className="">3. SMS / MMS Messaging Policy</p>
 <p className="">By providing your mobile phone number and choosing to receive communications from us, you may opt in to receive SMS and/or MMS messages from TGAND Technologies LLC related to our services, consultations, promotions, and updates.</p>
 
-<p className="">Message Content & Frequency</p>
+<p className="">Message Content and Frequency</p>
 
 <p className="">Messages may include appointment reminders, service updates, promotional offers, and other information related to TGAND Tech services.</p>
 <p className="">Message frequency may vary depending on your interactions with us and the services you receive.</p>
@@ -50,10 +50,10 @@ We use the information we collect for the following purposes:
 
 <p className="">You may opt out of SMS/MMS messages at any time by replying "STOP" to any message you receive from us.</p>
 After you send STOP, we may send a confirmation message to verify that you have been unsubscribed. No further marketing SMS/MMS messages will be sent to your number unless you opt in again.
-<p className="">Help & Support</p>
+<p className="">Help and Support</p>
 
 <p className="">For assistance regarding our SMS/MMS program, you can reply "HELP" to any message or contact us at David@TGANDTechnologies.com.</p>
-<p className="">Message & Data Rates</p>
+<p className="">Message and Data Rates</p>
 
 <p className="">Standard message and data rates may apply for any SMS/MMS messages sent or received, depending on your mobile carrier plan.</p>
 <p className="">Carriers are not liable for delayed or undelivered messages.</p>      
