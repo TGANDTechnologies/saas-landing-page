@@ -12,7 +12,7 @@ export default function ContactPage() {
         Privacy Policy</p>
 <p className="text-left">Effective Date: December 18, 2025</p>
 
-<p className="">This Privacy Policy describes how Solamailer ("Solamailer," "we," "us," or "our") collects, uses, and shares information when you visit our website, use our online services, or communicate with us, including via SMS/MMS messages.</p>
+<p className="">This Privacy Policy describes how Solamailer (Solamailer, we, us, or our) collects, uses, and shares information when you visit our website, use our online services, or communicate with us, including via SMS/MMS messages.</p>
 
 <p className="">Solamailer is located at:</p>
 <p className="">361 Borgato Ct.</p>
@@ -49,7 +49,7 @@ We use the information we collect for the following purposes:
 <p className="">Opt-Out</p>
 
 <p className="">You may opt out of SMS/MMS messages at any time by replying "STOP" to any message you receive from us.</p>
-After you send "STOP," we may send a confirmation message to verify that you have been unsubscribed. No further marketing SMS/MMS messages will be sent to your number unless you opt in again.
+After you send STOP, we may send a confirmation message to verify that you have been unsubscribed. No further marketing SMS/MMS messages will be sent to your number unless you opt in again.
 <p className="">Help & Support</p>
 
 <p className="">For assistance regarding our SMS/MMS program, you can reply "HELP" to any message or contact us at David@TGANDTechnologies.com.</p>
