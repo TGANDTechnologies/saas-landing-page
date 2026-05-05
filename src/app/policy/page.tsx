@@ -11,8 +11,7 @@ export default function ContactPage() {
 
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="section-title">Contact Us</h1>
-            <p className="section-description mt-4">Privacy Policy</p>
+            <h1 className="section-title">Privacy Policy</h1>
             <p className="text-sm text-gray-500 mt-2">
               Effective Date: December 18, 2025
             </p>
