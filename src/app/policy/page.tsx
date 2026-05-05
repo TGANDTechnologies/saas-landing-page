@@ -166,7 +166,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <p className="font-semibold">9. Children's Privacy</p>
+              <p className="font-semibold">9. Childrens Privacy</p>
               <p>
                 Our services are not directed to children under 13.
               </p>
