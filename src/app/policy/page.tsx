@@ -66,7 +66,7 @@ After you send STOP, we may send a confirmation message to verify that you have 
 <p className="">Business Transfers: In connection with a merger, acquisition, or other corporate transaction, your information may be transferred as part of the business assets.</p>
 <p className="">Legal and Safety: When required to comply with applicable law, regulation, legal process, or governmental request, or to protect the rights, property, or safety of TGAND Tech, our clients, or others.</p>
 <p className="">6. Data Security</p>
-<p className="">We use reasonable administrative, technical, and physical safeguards designed to protect the information we collect. However, no method of transmission over the Internet or method of electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+<p className="">We use reasonable administrative, technical, and physical safeguards designed to protect the information we collect. However, no method of transmission over the Internet or method of electronic storage is 100 percent secure, and we cannot guarantee absolute security.</p>
 <p className="">7. Data Retention</p>
 <p className="">We retain personal information for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law. When we no longer need the information, we will delete or de-identify it in accordance with our data retention practices.</p>
 <p className="">8. Your Choices and Rights</p>
