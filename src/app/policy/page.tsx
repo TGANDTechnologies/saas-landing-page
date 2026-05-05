@@ -48,11 +48,11 @@ We use the information we collect for the following purposes:
 <p className="">Consent to receive SMS/MMS messages is not a condition of purchasing any goods or services.</p>
 <p className="">Opt-Out</p>
 
-<p className="">You may opt out of SMS/MMS messages at any time by replying "STOP" to any message you receive from us.</p>
+<p className="">You may opt out of SMS/MMS messages at any time by replying STOP to any message you receive from us.</p>
 After you send STOP, we may send a confirmation message to verify that you have been unsubscribed. No further marketing SMS/MMS messages will be sent to your number unless you opt in again.
 <p className="">Help and Support</p>
 
-<p className="">For assistance regarding our SMS/MMS program, you can reply "HELP" to any message or contact us at David@TGANDTechnologies.com.</p>
+<p className="">For assistance regarding our SMS/MMS program, you can reply HELP to any message or contact us at David@TGANDTechnologies.com.</p>
 <p className="">Message and Data Rates</p>
 
 <p className="">Standard message and data rates may apply for any SMS/MMS messages sent or received, depending on your mobile carrier plan.</p>
