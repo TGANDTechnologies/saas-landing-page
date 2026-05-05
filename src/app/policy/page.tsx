@@ -98,7 +98,7 @@ export default function ContactPage() {
 
               <p className="font-semibold mt-4">Opt-Out</p>
               <p>
-                You may opt out of SMS/MMS messages at any time by replying &quot;STOP&quot; to any message you receive from us.
+                You may opt out of SMS/MMS messages at any time by replying STOP to any message you receive from us.
               </p>
               <p>
                 After you send STOP, we may send a confirmation message to verify that you have been unsubscribed. No further marketing SMS/MMS messages will be sent to your number unless you opt in again.
@@ -106,7 +106,7 @@ export default function ContactPage() {
 
               <p className="font-semibold mt-4">Help and Support</p>
               <p>
-                For assistance regarding our SMS/MMS program, you can reply &quot;HELP&quot; to any message or contact us at David@TGANDTechnologies.com.
+                For assistance regarding our SMS/MMS program, you can reply HELP to any message or contact us at David@TGANDTechnologies.com.
               </p>
 
               <p className="font-semibold mt-4">Message and Data Rates</p>
