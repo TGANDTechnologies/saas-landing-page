@@ -32,7 +32,11 @@ export const Hero = () => {
               Human in the Loop AI Employee
             </h1>
             <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-              Program your own AI employees, monitor activity from your CRM. — from crafting personalized outreach and qualifying leads to scheduling follow‑ups and optimizing send times. Deploy a reliable assistant that learns your context, integrates with your stack, and scales outreach with human‑like judgment.
+              Program your own AI employees, monitor activity from your CRM. — from crafting personalized outreach and qualifying leads to scheduling follow‑ups and optimizing send times. Deploy a reliable assistant that learns your context, integrates with your stack via our{" "}
+              <a href="/agents" className="underline hover:text-black">
+                MCP server
+              </a>
+              , and scales outreach with human‑like judgment.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
 
@@ -52,6 +56,10 @@ export const Hero = () => {
 
               <button className="btn btn-text gap-1">
                 <a href="/features">Learn more</a>
+                <ArrowIcon className="h-5 w-5" />
+              </button>
+              <button className="btn btn-text gap-1">
+                <a href="/agents">MCP server</a>
                 <ArrowIcon className="h-5 w-5" />
               </button>
             </div>

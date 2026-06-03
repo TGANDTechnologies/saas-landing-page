@@ -62,7 +62,8 @@ export const Hero2 = () => {
   </h1>
 
   <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-    Ramp up with AI before hiring new team members, or augment your existing workforce with an autonomous employee that handles marketing and sales tasks 24/7.
+    Ramp up with AI before hiring new team members, or augment your existing workforce with an autonomous employee that handles marketing and sales tasks 24/7. Connect your stack with our{" "}
+    <a href="/agents" className="underline hover:text-black">MCP server</a>.
   </p>
 
   <div className="flex justify-end gap-2 items-center mt-8 flex-wrap">

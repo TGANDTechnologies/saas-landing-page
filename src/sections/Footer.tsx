@@ -19,6 +19,7 @@ export const Footer = () => {
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/features">Features</a>
+        <a href="/agents">Agents</a>
         <a href="/blog">Blog</a>
         <a href="/contact">Contact</a>
         <a href="/techcrunch">TechCrunch</a>

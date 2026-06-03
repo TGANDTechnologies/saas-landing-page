@@ -27,7 +27,8 @@ export const ProductShowcase = () => {
             Fully Automated and Hands Free
           </h2>
           <p className="section-description mt-5">
-          Enter information about your company, or integrate to your CRM to train your employee on real company knowledge.
+          Enter information about your company, or integrate to your CRM to train your employee on real company knowledge. Connect AI assistants to your stack with our{" "}
+          <a href="/agents" className="underline hover:text-black">MCP server</a>.
 
           </p>
         </div>

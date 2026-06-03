@@ -25,7 +25,9 @@ export const ProductShowcase2 = () => {
             Customize Your AI Manager
           </h2>
           <p className="section-description mt-5">
-          Ready to craft multi‑channel campaigns, qualify and nurture leads, run A/B tests, optimize messaging and send times, and deliver performance reports with configurable guardrails and simple human oversight.
+          Ready to craft multi‑channel campaigns, qualify and nurture leads, run A/B tests, optimize messaging and send times, and deliver performance reports with configurable guardrails and simple human oversight. Use our{" "}
+          <a href="/agents" className="underline hover:text-black">MCP server</a>{" "}
+          to drive all of this from Cursor, Claude, or any compatible AI client.
           </p>
 
         </div>
@@ -39,7 +41,7 @@ export const ProductShowcase2 = () => {
    <section className="pb-9">
         <div className="container">
       
-<div className="mt-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+<div className="mt-6 grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
     <h2 className="text-lg font-semibold mb-2">Built to run on Context</h2>
     <p className="text-muted-foreground">
@@ -51,6 +53,14 @@ export const ProductShowcase2 = () => {
     <h2 className="text-lg font-semibold mb-2">Targeted Campaigns</h2>
     <p className="text-muted-foreground mt-3">
       Take control to craft targeted outreach, or let the system run autonomously and optimize for you.
+    </p>
+  </div>
+
+  <div className="p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] bg-white">
+    <h2 className="text-lg font-semibold mb-2">MCP Server for AI Agents</h2>
+    <p className="text-muted-foreground mt-3">
+      Connect Cursor, Claude, and other MCP clients to manage contacts, campaigns, sequences, and CRM sync from your AI workflow.{" "}
+      <a href="/agents" className="underline hover:text-black">View the MCP server docs</a>.
     </p>
   </div>
 </div>

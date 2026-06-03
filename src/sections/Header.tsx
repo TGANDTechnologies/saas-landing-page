@@ -42,6 +42,7 @@ export const Header = () => {
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
               <a href="/">Home</a>
               <a href="/features">Features</a>
+              <a href="/agents">Agents</a>
               <a href="/blog">Blog</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
@@ -67,6 +68,9 @@ export const Header = () => {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Features
+                </a>
+                <a href="/agents" onClick={() => setMobileMenuOpen(false)}>
+                  Agents
                 </a>
                 <a href="/blog" onClick={() => setMobileMenuOpen(false)}>
                   Blog

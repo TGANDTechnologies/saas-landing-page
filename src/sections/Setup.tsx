@@ -54,7 +54,9 @@ export const Setup = () => {
             <div className="text-4xl font-bold text-[#001E80] mb-4">Step 3</div>
             <h3 className="text-xl font-semibold mb-2">Campaigns & Automations</h3>
             <p className="text-muted-foreground">
-              You can create campaigns with triggers and automations and your AI will take it from there — handling outreach, follow-ups, and optimizations on your behalf.
+              You can create campaigns with triggers and automations and your AI will take it from there — handling outreach, follow-ups, and optimizations on your behalf. Or connect the{" "}
+              <a href="/agents" className="underline hover:text-black">MCP server</a>{" "}
+              in Cursor or Claude to manage everything from your AI workflow.
             </p>
           </div>
         </div>

@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "AI Email Assistant - About our service.",
+  title: "AI Email Assistant - Features & MCP Integration",
   description:
-    "Boost your productivity with our AI-powered email assistant. Streamline your communication, automate responses, and manage your inbox effortlessly.",
+    "Boost your productivity with our AI-powered email assistant. Streamline communication, automate outreach, and connect AI agents via our MCP server.",
 };
 
 export default function AboutLayout({ children }: { children: ReactNode }) {

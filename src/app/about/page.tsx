@@ -20,7 +20,11 @@ export default function AboutPage() {
           </div>
           <h1 className="section-title mt-5">Built to Save You Time</h1>
           <p className="section-description mt-5">
-            We are on a mission to revolutionize workforce productivity through creating a highly intelligent agentic workforce that can handle repetitive tasks, streamline communication, and optimize workflows. Our goal is to empower businesses to focus on what truly matters—innovation, growth, and success.
+            We are on a mission to revolutionize workforce productivity through creating a highly intelligent agentic workforce that can handle repetitive tasks, streamline communication, and optimize workflows. Our full{" "}
+            <a href="/agents" className="underline hover:text-black">
+              MCP server
+            </a>{" "}
+            lets AI assistants in Cursor, Claude, and other clients manage outreach directly from your workflow. Our goal is to empower businesses to focus on what truly matters—innovation, growth, and success.
           </p>
         </div>
 
@@ -42,6 +46,16 @@ export default function AboutPage() {
               always learning.
             </p>
           </div>
+        </div>
+
+        <div className="mt-20 max-w-2xl mx-auto text-center">
+          <h2 className="text-2xl font-semibold mb-4">AI Agent Integration</h2>
+          <p className="text-muted-foreground">
+            Connect Cursor, Claude, and other MCP clients to Sola Mailer.{" "}
+            <a href="/agents" className="text-black underline">
+              Learn about our MCP server
+            </a>
+          </p>
         </div>
 
         <div className="mt-20 max-w-2xl mx-auto text-center">

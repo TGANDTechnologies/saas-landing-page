@@ -9,7 +9,7 @@ export default function ContactPage() {
       <div className="text-center section-heading">
         <h1 className="section-title">Contact Us</h1>
         <p className="section-description mt-4">
-          We are here to help with questions, support, or anything else you need.
+          We are here to help with questions, support, MCP server setup, or anything else you need.
         </p>
       </div>
 
@@ -25,7 +25,9 @@ export default function ContactPage() {
             sm:max-w-full md:max-w-[50%] lg:max-w-[33%];">
           <h2 className="text-lg font-semibold mb-2">Support</h2>
           <p>Email: <a href="mailto:support@tgandtechnologies.com" className="underline hover:text-black">support@solamailer.com</a></p>
-          <p>We typically respond within 24 hours.</p>
+          <p>We typically respond within 24 hours. For MCP server setup, see our{" "}
+            <a href="/agents" className="underline hover:text-black">Agents page</a>.
+          </p>
         </div>
       </div>
     </section>

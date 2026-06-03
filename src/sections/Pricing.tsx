@@ -113,7 +113,9 @@ export const Pricing = () => {
           <h2 className="section-title">Pricing</h2>
           <p className="section-description mt-5">
             Tiered pricing. No contracts, no hidden fees. Cancel anytime.{" "}
-            <b>Free trial for 1 month.</b>
+            <b>Free trial for 1 month.</b> All plans include access to our{" "}
+            <a href="/agents" className="underline hover:text-black">MCP server</a>{" "}
+            for AI agent integrations.
           </p>
         </div>
 
