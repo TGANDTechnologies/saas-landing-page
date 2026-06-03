@@ -1,6 +1,31 @@
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 
+const FOUNDER_VIDEO_URL =
+  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/IMG_4432.mov";
+
+function VideoEmbed({ title, src }: { title: string; src: string }) {
+  return (
+    <div className="w-full">
+      <h2 className="text-xl font-semibold text-[#010d3e] mb-4 text-center">
+        {title}
+      </h2>
+      <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-[0_7px_14px_#eaeaea] bg-black">
+        <video
+          className="w-full h-full object-contain"
+          controls
+          playsInline
+          preload="metadata"
+          aria-label={title}
+        >
+          <source src={src} type="video/quicktime" />
+          Your browser does not support this video format.
+        </video>
+      </div>
+    </div>
+  );
+}
+
 function VideoPlaceholder({ title }: { title: string }) {
   return (
     <div className="w-full">
@@ -54,7 +79,7 @@ export default function TechCrunchPage() {
         </div>
 
         <div className="mt-16 flex flex-col gap-16">
-          <VideoPlaceholder title="Founder Introduction Video" />
+          <VideoEmbed title="Founder Introduction Video" src={FOUNDER_VIDEO_URL} />
           <VideoPlaceholder title="Product Demo Video" />
         </div>
       </section>
