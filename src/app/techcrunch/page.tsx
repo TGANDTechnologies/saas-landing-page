@@ -2,7 +2,7 @@ import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 
 const FOUNDER_VIDEO_URL =
-  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/IMG_4432.mov";
+  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/tech-crunch-founder-video.mp4";
 
 function VideoEmbed({ title, src }: { title: string; src: string }) {
   return (
@@ -18,7 +18,7 @@ function VideoEmbed({ title, src }: { title: string; src: string }) {
           preload="metadata"
           aria-label={title}
         >
-          <source src={src} type="video/quicktime" />
+          <source src={src} type="video/mp4" />
           Your browser does not support this video format.
         </video>
       </div>
