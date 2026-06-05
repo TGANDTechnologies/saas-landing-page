@@ -17,5 +17,11 @@ export const metadata: Metadata = {
 };
 
 export default function AgentsLayout({ children }: { children: ReactNode }) {
-  return children;
+  return (
+    <html lang="en" className="relative">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
 }

@@ -4,6 +4,9 @@ import { Header } from "@/sections/Header";
 const FOUNDER_VIDEO_URL =
   "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/tech-crunch-founder-video.mp4";
 
+const DEMO_VIDEO_URL =
+  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/tech-crunch-founder-video.mp4";
+
 function VideoEmbed({ title, src }: { title: string; src: string }) {
   return (
     <div className="w-full">
@@ -21,24 +24,6 @@ function VideoEmbed({ title, src }: { title: string; src: string }) {
           <source src={src} type="video/mp4" />
           Your browser does not support this video format.
         </video>
-      </div>
-    </div>
-  );
-}
-
-function VideoPlaceholder({ title }: { title: string }) {
-  return (
-    <div className="w-full">
-      <h2 className="text-xl font-semibold text-[#010d3e] mb-4 text-center">
-        {title}
-      </h2>
-      <div
-        className="aspect-video w-full rounded-2xl border-2 border-dashed border-[#222222]/20 bg-white/60 flex items-center justify-center shadow-[0_7px_14px_#eaeaea]"
-        aria-label={`${title} placeholder`}
-      >
-        <p className="text-[#010d3e]/60 text-sm md:text-base px-6 text-center">
-          Video placeholder — embed your {title.toLowerCase()} here
-        </p>
       </div>
     </div>
   );
@@ -80,7 +65,7 @@ export default function TechCrunchPage() {
 
         <div className="mt-16 flex flex-col gap-16">
           <VideoEmbed title="Founder Introduction Video" src={FOUNDER_VIDEO_URL} />
-          <VideoPlaceholder title="Product Demo Video" />
+          <VideoEmbed title="Product Demo Video" src={DEMO_VIDEO_URL} />
         </div>
       </section>
       <Footer />
