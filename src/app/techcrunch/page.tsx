@@ -5,7 +5,7 @@ const FOUNDER_VIDEO_URL =
   "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/tech-crunch-founder-video.mp4";
 
 const DEMO_VIDEO_URL =
-  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/tech-crunch-founder-video.mp4";
+  "https://auth.solamailer.com/storage/v1/object/public/tech-crunch-vid/solamailer-demo-video.mp4";
 
 function VideoEmbed({ title, src }: { title: string; src: string }) {
   return (
